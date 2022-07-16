@@ -1,0 +1,45 @@
+note over browser:
+User types in input of type text 
+end note
+
+note over browser:
+User clicks on submit button
+end note
+
+browser->server: HTTP POST /exampleapp/new_notes, body: "hello world"
+server-->browser: HTML code 302 redirect to /notes
+
+note over browser:
+Browser requests HTTP GET /notes
+end note
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
+server-->browser: HTML-code
+
+note over browser:
+Browser reads HTML-code
+end note
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+server-->browser: main.css
+
+note over browser:
+Browser reads css-code
+end note
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
+server-->browser: main.js
+
+note over browser:
+browser executes js-code with 
+a JSON-data request from server
+end note
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+server-->browser: [{ content: "Hello world", date: "2022-07-16" }, ...]
+
+
+note over browser:
+browser executes the event handler
+that renders the server response to display
+end note

@@ -1,0 +1,19 @@
+note over browser:
+User types in input of type text 
+end note
+
+note over browser:
+User clicks on submit button
+end note
+
+note over browser:
+
+The event handler creates 
+a new note to the notes list, 
+rerenders the note list on the page 
+and sends the new note to the server.
+end note
+
+
+browser->server: HTTP POST /exampleapp/new_note_spa, body: "hello world"
+server-->browser: HTML code 201: Created, body: {"message":"note created"}
