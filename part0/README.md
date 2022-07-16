@@ -53,10 +53,15 @@ The diagram does not have to be a sequence diagram. Any sensible way of presenti
 
 All necessary information for doing this, and the next two exercises, can be found from the text of this part. The idea of these exercises is to read the text through once more, and to think through what is going on there. Reading the application code is not necessary, but it is of course possible.
 
+![part 0.4](part0.4.png "Title")
 ### 0.5: Single page app
 Create a diagram depicting the situation where the user goes to the single page app version of the notes app at https://studies.cs.helsinki.fi/exampleapp/spa.
+
+![part 0.5](part0.5.png "SPA")
 
 ### 0.6: New note
 Create a diagram depicting the situation where the user creates a new note using the single page version of the app.
 
 This was the last exercise, and it's time to push your answers to GitHub and mark the exercises as done in the submission system.
+
+![part 0.6](part0.6.png "SPA POST")
