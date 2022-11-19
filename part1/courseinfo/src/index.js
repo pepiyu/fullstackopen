@@ -53,7 +53,6 @@ const App = () => {
 
   return (
     <div>
-      <p>hello world</p>
       <Header course={course.name} />
       <Content parts={course.parts} />
       <Total parts={course.parts}/>

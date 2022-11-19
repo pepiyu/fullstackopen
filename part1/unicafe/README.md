@@ -1,6 +1,6 @@
-# Course info
+# Unicafe
 
-[!image](public/courseinfo.png)
+[!image](public/unicafe.gif)
 
 # Getting Started with Create React App
 

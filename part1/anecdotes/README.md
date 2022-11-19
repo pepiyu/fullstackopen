@@ -1,6 +1,6 @@
-# Course info
+# Anecdotes
 
-[!image](public/courseinfo.png)
+![image](public/gif_anecdotes.gif)
 
 # Getting Started with Create React App
 
